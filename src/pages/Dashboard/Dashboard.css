@@ -1,0 +1,56 @@
+.dashboard__content {
+  transform: translateY(-50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dashboard__form {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #141420;
+  color: #e9e9eb !important;
+
+  padding: 10px 20px;
+  width: 96%;
+  margin-bottom: 20px;
+  left: 2%;
+  border-radius: 20px;
+}
+
+.dashboard__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+  color: #e9e9eb !important;
+}
+
+.dashboard__input {
+  flex: 1;
+  color: #e9e9eb !important;
+}
+.dashboard__iconButton {
+  flex: 0;
+  color: #e9e9eb !important;
+}
+
+.dashboard__logoutBtn {
+  margin-bottom: 20px !important;
+  width: 10%;
+  align-self: center;
+  font-weight: bold !important;
+  color: #141420 !important;
+}
+
+.dashboard__logo {
+  margin-top: 80px;
+  object-fit: contain;
+}
+
+.dashboard__logo img {
+  width: 50%;
+}
+
+.dashboard__banner {
+  color: #141420 !important;
+}

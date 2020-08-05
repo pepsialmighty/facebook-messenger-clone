@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.form__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form__input {
+  max-width: 500px;
+  width: 70%;
+}
+
+.form__logo {
+  max-width: 500px;
+  width: 70%;
+  object-fit: contain;
+}
+
+.form__logo img {
+  width: 100%;
+}
+
+.form__button {
+  font-size: 20px !important;
+}
